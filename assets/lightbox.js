@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var selector = ".project-photos img, .row-image img, .sketches-group img";
+  var selector = ".project-photos img, .sketches-group img";
   var images = document.querySelectorAll(selector);
   if (!images.length) return;
 
