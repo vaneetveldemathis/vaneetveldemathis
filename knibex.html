@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Knibex — Mathis van Eetvelde</title>
+<meta name="description" content="Knibex, couteau au manche en résine — projet de Mathis van Eetvelde.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Fraunces:ital,wght@0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<div class="intro-overlay" aria-hidden="true">
+  <div class="intro-name">
+    <span class="line line-1"><span>Mathis</span></span>
+    <span class="line line-2"><span>van Eetvelde</span></span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="mark">Mathis van <span class="serif">Eetvelde</span></a>
+    <nav class="primary-nav">
+      <ul>
+        <li><a href="index.html#projets" data-i18n="nav_projects">Projets</a></li>
+        <li><a href="index.html#a-propos" data-i18n="nav_about">À propos</a></li>
+        <li><a href="index.html#contact" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="lang-switch">
+      <button type="button" data-lang="fr">FR</button>
+      <button type="button" data-lang="nl">NDLS</button>
+      <button type="button" data-lang="en">EN</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="project-hero">
+    <div class="wrap">
+      <a class="back-link" href="index.html#projets" data-i18n="back_link">Tous les projets</a>
+      <div class="row-meta"><span data-i18n="knibex_category">Coutellerie</span><span class="dot"></span><span data-i18n="knibex_status">Prototype fonctionnel</span></div>
+      <h1>Knibex</h1>
+      <p class="oneliner" data-i18n="knibex_oneliner">Couteau à la lame courbe et au manche en résine coulée.</p>
+    </div>
+  </section>
+
+  <section class="project-photos">
+    <div class="wrap">
+      <div class="main-shot">
+        <img src="assets/knibex/knibex-face.jpg" alt="Knibex, vue de face">
+      </div>
+      <div class="photo-grid">
+        <img src="assets/knibex/knibex-dessus.jpg" alt="Knibex, vue du dessus du manche">
+        <img src="assets/knibex/knibex-dessous.jpg" alt="Knibex, vue du dessous du manche, signature gravée">
+        <img src="assets/knibex/knibex-main.jpg" alt="Knibex, tenu en main">
+        <img src="assets/knibex/knibex-liege.jpg" alt="Knibex, posé sur une planche en liège">
+      </div>
+    </div>
+  </section>
+
+  <section class="project-description">
+    <div class="wrap">
+      <p data-i18n="knibex_desc1">Le but du projet était de faire un couteau ergonomique pour ma propre main, et donc adapté à ma façon de le tenir. J'ai choisi de faire un couteau à fromage : la forme devait donc s'adapter à ma manière de couper le fromage.</p>
+      <p data-i18n="knibex_desc2">Knibex est donc un couteau à fromage à pâte molle. La forme du manche s'inspire des nodosités, ou bourrelets, qui donnent cet aspect « bosselé » aux cornes des bouquetins.</p>
+      <p data-i18n="knibex_desc3">Pour les matériaux, la lame est découpée dans une plaque d'inox, et le manche est coulé en résine époxy. J'ai choisi une teinte mauve/rose pour le manche, une couleur que l'on retrouve sur certaines fleurs en montagne.</p>
+      <div>
+        <span class="materials-label" data-i18n="materials_label">Matériaux</span>
+        <ul class="materials">
+          <li data-i18n="knibex_mat1">Lame en acier inoxydable</li>
+          <li data-i18n="knibex_mat2">Manche en résine époxy coulée</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <nav class="project-nav">
+    <div class="wrap">
+      <a href="index.html#projets" data-i18n="back_link">Tous les projets</a>
+      <a class="next-project" href="swing.html"><span data-i18n="next_label">Projet suivant</span> — Swing</a>
+    </div>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Mathis van Eetvelde</span>
+    <span data-i18n="footer_tagline">Design industriel — Saint-Luc Liège</span>
+  </div>
+</footer>
+
+<script src="assets/intro.js"></script>
+<script src="assets/i18n.js"></script>
+<script src="assets/lightbox.js"></script>
+</body>
+</html>
